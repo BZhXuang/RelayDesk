@@ -189,7 +189,6 @@ npm run build
 | `GET /monitor`、`GET /metrics` | 监控摘要和 Prometheus 指标 |
 | `/mcp/` | 本地知识工具的标准 MCP 端点 |
 
-请求和响应的精确结构请查看 `/docs`。
 
 ## 安全与项目边界
 
