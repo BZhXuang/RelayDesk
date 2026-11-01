@@ -1,7 +1,7 @@
 # RelayDesk
 
-[English](README.md) | 简体中文
-
+简体中文  |  [English](README-En.md)
+ 
 **面向技术支持与账单咨询的多 Agent 客服原型，包含知识检索、跨轮会话记忆、受限工具调用和 MCP 集成。**
 RelayDesk 由 Python/FastAPI 后端和 Vue 3 控制台组成，可根据请求意图选择通用、技术或账单 Agent；复合问题可以并行调度多个 Agent，再组合回答。
 
