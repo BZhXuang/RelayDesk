@@ -2,7 +2,8 @@
 
 [English](README.md) | 简体中文
 
-面向技术支持与账单咨询的多 Agent 客服原型，包含知识检索、跨轮会话记忆、受限工具调用和 MCP 集成。**RelayDesk 由 Python/FastAPI 后端和 Vue 3 控制台组成，可根据请求意图选择通用、技术或账单 Agent；复合问题可以并行调度多个 Agent，再组合回答。
+**面向技术支持与账单咨询的多 Agent 客服原型，包含知识检索、跨轮会话记忆、受限工具调用和 MCP 集成。**
+RelayDesk 由 Python/FastAPI 后端和 Vue 3 控制台组成，可根据请求意图选择通用、技术或账单 Agent；复合问题可以并行调度多个 Agent，再组合回答。
 
 系统按需检索项目知识库，并由配置的模型处理意图判断、查询改写、候选重排和回答生成。Redis 保存近期对话、摘要和结构化状态；ChromaDB 用于知识检索，以及相关历史情景和用户画像的语义检索。MCP 客户端支持配置的 Streamable HTTP 或 stdio 服务，并按 Agent 角色和工具白名单限制调用。
 
