@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: relaydesk-api
+    metrics_path: /metrics
+    static_configs:
+      - targets: [relaydesk-api:8000]
